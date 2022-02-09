@@ -18,6 +18,9 @@ function onFormSubmit(event) {
         console.log('Значение свойства', value);
         console.log('Имя поля', name)
     });
+    if (email.value === "" || password.value === "") {
+        onFormSubmit.reset()
+     }
 };
 
 
