@@ -7,4 +7,3 @@ categoriesElement.forEach(function (category) {
     console.log('Elements : ',
         category.lastElementChild.children.length);
 });
-

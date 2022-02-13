@@ -19,3 +19,7 @@ const elements = ingredients.map(ingredient => {
 console.log(elements)
 ingredientsEl.append(...elements);
 
+
+
+
+
